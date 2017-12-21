@@ -15,7 +15,7 @@ export class HomePage {
   startScan(){
     this.barcodeScanner.scan().then(
       (barcodeData) => {
-        alert(barcodeData.text);
+        this.navCtrl.push('ProductInfoPage', barcodeData);
       }
       , (err) => {}
     )

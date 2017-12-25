@@ -6,6 +6,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
+ * 
+ * Get all products: http://www.teerasej.com/api/product-barcode/all.php
+ * Get product's name by code: http://www.teerasej.com/api/product-barcode/find.php 
  */
 
 @IonicPage()
